@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_online_order"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Online order" />
+        <item
+            android:id="@+id/nav_onsite_order"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Onsite order" />
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Profile" />
+        <item
+            android:id="@+id/nav_bill"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Bill" />
+        <item
+            android:id="@+id/nav_transaction"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Transaction" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+
+            <item
+                android:id="@+id/nav_login"
+                android:icon="@drawable/ic_menu_camera"
+                android:title="Login" />
+        </menu>
+    </item>
+
+</menu>

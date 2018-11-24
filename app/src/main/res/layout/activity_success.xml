@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SuccessActivity">
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="153dp"
+        android:layout_height="174dp"
+        app:srcCompat="@android:drawable/checkbox_on_background"
+        tools:layout_editor_absoluteX="116dp"
+        tools:layout_editor_absoluteY="158dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="188dp"
+        android:layout_height="85dp"
+        android:ellipsize="end"
+        android:gravity="clip_horizontal"
+        android:text="Pemesanan Berhasil waktu tunggu 30 menit"
+        android:textColor="@android:color/background_dark"
+        tools:layout_editor_absoluteX="98dp"
+        tools:layout_editor_absoluteY="353dp" />
+</android.support.constraint.ConstraintLayout>
